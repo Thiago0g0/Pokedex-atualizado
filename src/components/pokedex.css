@@ -1,0 +1,68 @@
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #858AE3;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1 {
+    text-decoration: blink;
+    text-decoration: solid;
+}
+
+h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+
+}
+
+.pokefundo {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 250px;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    box-shadow: 3px 3px 3px 0px #333232;
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 160px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: #574AE2;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+
+
+}
+
+button {
+
+    width: 100px;
+    margin: 3px;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
